@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="98b6b234866045548d6e16e5974b7c01" Name="Diagram1">
+        <EntityTypeShape EntityType="EF_Demo_DBModel.Course" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_Demo_DBModel.Standard" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_Demo_DBModel.Student" Width="1.5" PointX="7.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_Demo_DBModel.StudentAddress" Width="1.5" PointX="9.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_Demo_DBModel.Teacher" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_Demo_DBModel.vwStudentCourse" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="EF_Demo_DBModel.FK__Course__TeacherI__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_Demo_DBModel.FK__Student__Standar__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_Demo_DBModel.FK__Teacher__Standar__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_Demo_DBModel.FK__StudentAd__Stude__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_Demo_DBModel.StudentCourse" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
